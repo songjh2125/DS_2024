@@ -1,4 +1,4 @@
-from list.listNode import ListNode
+from listNode import ListNode
 
 class CircularLinkedList:
     def __init__(self):
@@ -122,7 +122,7 @@ class CircularLinkedList:
         for element in a:
             self.append(element)
             
-    def __findNode(self, x) -> (ListNode, ListNode):
+    def __findNode(self, x):
         __head = prev = self.__tail.next # 더미 헤드
         curr = prev.next # 0번 노드
         while curr != None:

@@ -1,4 +1,4 @@
-from list.listNode import ListNode
+from listNode import ListNode
 
 class LinkedListBasic:
     def __init__(self):
@@ -109,7 +109,7 @@ class LinkedListBasic:
         for index in range(len(a)):
             self.append(a[index])
             
-    def __findNode(self, x) -> (ListNode, ListNode):
+    def __findNode(self, x):
         prev = self.__head # 더미 헤드
         curr = prev.next # 0번 노드
         while curr != None:
