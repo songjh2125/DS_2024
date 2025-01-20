@@ -1,6 +1,5 @@
-from list.listNode import ListNode
-from list.linkedListBasic import LinkedListBasic
-from list.circularLinkedList import CircularLinkedList
+from linkedListBasic import LinkedListBasic
+from circularLinkedList import CircularLinkedList
 
 if __name__ == "__main__":
     
