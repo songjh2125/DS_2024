@@ -1,6 +1,6 @@
-from sort.shellSort import *
-from sort.insertionSort import *
-from sort.quickSort import *
+from shellSort import *
+from insertionSort import *
+from quickSort import *
 
 def do_sort(input_file):
     data_file = open(input_file)
@@ -25,7 +25,7 @@ if __name__ == "__main__":
     import time
     
     start = time.perf_counter()
-    do_sort("./linkbench_short.trc")
+    do_sort("linkbench_short.trc")
     end = time.perf_counter()
     elapsed_time_us = (end - start) * 1000
     print(f"Elapsed time: {elapsed_time_us:.2f} ms")
