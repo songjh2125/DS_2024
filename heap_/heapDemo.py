@@ -1,4 +1,4 @@
-from heap.heap import *
+from heap import Heap
 
 print('Heap!')
 h1 = Heap([1, 4, 3, 6, 2])
