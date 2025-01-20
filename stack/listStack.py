@@ -25,3 +25,6 @@ class ListStack:
         for i in range(len(self.__stack)-1, -1, -1):
             print(self.__stack[i], end = ' ')
         print()
+    
+    def __getitem__(self, index):
+        return self.__stack[index]
