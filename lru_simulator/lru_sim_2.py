@@ -1,4 +1,4 @@
-from list.circularLinkedList import *
+from circularLinkedList import *
 
 class CacheSimulator:
     def __init__(self, cache_slots):
